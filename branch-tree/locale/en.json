@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Branch tree",
+    "description": "Draws the current branch and its neighbours as a small coloured tree in the conversation's right margin; hover a dot for the latest commit's time and short hash."
+  }
+}

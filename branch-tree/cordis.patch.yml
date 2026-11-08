@@ -1,0 +1,3 @@
+- insert:
+    - id: git-graph-watermark
+      name: '@local/dsh-git-graph-watermark'
