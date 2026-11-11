@@ -86,7 +86,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/66-zhimeng/dsh-dispatch",
-            "commit": "33743a19775e4312073b90f9e108e71d57eff6f7"
+            "commit": "3ce0c0669b17af333d1ab92f0b36167468af46db"
           },
           "engines": {}
         }
