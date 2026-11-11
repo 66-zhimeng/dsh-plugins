@@ -9,6 +9,17 @@ Personal collection of DeepSeek Harness plugins. Every subdirectory is a self-co
 | 目录 | 包名 | 作用 |
 |---|---|---|
 | [`branch-tree/`](branch-tree) | `@local/dsh-git-graph-watermark` | 在对话右侧空白处画出当前分支与相邻分支的分叉树，悬停查看最新提交时间与短哈希。 |
+| [`dsh-dispatch`](https://github.com/66-zhimeng/dsh-dispatch)（独立仓库） | `dsh-dispatch` | `run_tools` 在一次模型往返里并发执行多个工具调用（可用 `after` 声明依赖）；`run_parallel` 一次派发多个子 agent。 |
+
+## 插件市场索引
+
+本仓库同时提供一份插件市场索引：[`market/index.json`](market/index.json)。
+
+```text
+https://raw.githubusercontent.com/66-zhimeng/dsh-plugins/main/market/index.json
+```
+
+在 DSH 的「插件 → 发现」里添加这个地址，或在 profile 的 `cordis.patch.yml` 里写 `- id: plugin-market` + `config.indexes`。格式与收录规则见 [`market/README.md`](market/README.md)。
 
 ## 安装
 

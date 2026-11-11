@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "title": {
+    "en": "zhimeng's DSH plugins",
+    "zh": "zhimeng 的 DSH 插件"
+  },
+  "description": {
+    "en": "Personal DeepSeek Harness plugins: fewer round trips, more visible state.",
+    "zh": "个人 DeepSeek Harness 插件：更少的模型往返，更清晰的状态。"
+  },
+  "metadata": {
+    "categories": {
+      "dev-tools": {
+        "title": {
+          "en": "Developer tools",
+          "zh": "开发工具"
+        }
+      },
+      "ui": {
+        "title": {
+          "en": "Interface",
+          "zh": "界面"
+        }
+      }
+    },
+    "labels": {
+      "speed": {
+        "title": {
+          "en": "Speed",
+          "zh": "提速"
+        }
+      },
+      "git": {
+        "title": {
+          "en": "Git",
+          "zh": "Git"
+        }
+      }
+    },
+    "sortKeys": {
+      "added": {
+        "title": {
+          "en": "Added",
+          "zh": "收录时间"
+        },
+        "order": "desc"
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-dispatch",
+      "title": {
+        "en": "Dispatch",
+        "zh": "批量派发"
+      },
+      "description": {
+        "en": "run_tools executes many tool calls inside one model round trip, concurrently and with after-dependencies; run_parallel fans out sub-agents.",
+        "zh": "run_tools 在一次模型往返里并发执行多个工具调用，可用 after 声明依赖；run_parallel 一次派发多个子 agent。"
+      },
+      "author": "66-zhimeng",
+      "homepage": "https://github.com/66-zhimeng/dsh-dispatch",
+      "repository": {
+        "url": "https://github.com/66-zhimeng/dsh-dispatch"
+      },
+      "metadata": {
+        "category": "dev-tools",
+        "keywords": [
+          "dispatch",
+          "tools",
+          "parallel",
+          "round-trip",
+          "latency"
+        ],
+        "labels": [
+          "speed"
+        ],
+        "sortKeys": {
+          "added": 20261111
+        }
+      },
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1794409550,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/66-zhimeng/dsh-dispatch",
+            "commit": "d16b5945b506a99c51304284d8bd877e2b93b8c5"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "@local/dsh-git-graph-watermark",
+      "title": {
+        "en": "Branch tree",
+        "zh": "分支树"
+      },
+      "description": {
+        "en": "Draws the current branch and its neighbours in the empty right-hand area of the conversation.",
+        "zh": "在对话右侧空白处画出当前分支与相邻分支的分叉树，悬停查看最新提交时间与短哈希。"
+      },
+      "author": "66-zhimeng",
+      "homepage": "https://github.com/66-zhimeng/dsh-plugins",
+      "repository": {
+        "url": "https://github.com/66-zhimeng/dsh-plugins",
+        "directory": "branch-tree"
+      },
+      "metadata": {
+        "category": "ui",
+        "keywords": [
+          "git",
+          "branch",
+          "graph"
+        ],
+        "labels": [
+          "git"
+        ],
+        "sortKeys": {
+          "added": 20261108
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794409550,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/66-zhimeng/dsh-plugins",
+            "commit": "4106c90098a856b00468d173e4ef5f10f382b682",
+            "path": "branch-tree"
+          },
+          "engines": {}
+        }
+      ]
+    }
+  ]
+}
