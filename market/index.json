@@ -81,12 +81,12 @@
       },
       "versions": [
         {
-          "version": "0.2.4",
-          "publishTimestamp": 1794414745,
+          "version": "0.2.5",
+          "publishTimestamp": 1794415304,
           "source": {
             "type": "git",
             "url": "https://github.com/66-zhimeng/dsh-dispatch",
-            "commit": "978129eaeb5802dc7ef883dbd89a0a5cc0f3c992"
+            "commit": "67301c245e971b28cdb62fb532d4cf59e6acf12a"
           },
           "engines": {}
         }
