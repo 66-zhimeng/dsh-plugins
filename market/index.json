@@ -49,10 +49,10 @@
   },
   "plugins": [
     {
-      "name": "dsh-dispatch",
+      "name": "dsh-tool-dispatch",
       "title": {
-        "en": "Dispatch",
-        "zh": "批量派发"
+        "zh": "dsh-tool-dispatch",
+        "en": "dsh-tool-dispatch"
       },
       "description": {
         "en": "run_tools executes many tool calls inside one model round trip, concurrently and with after-dependencies; run_parallel fans out sub-agents.",
@@ -61,7 +61,7 @@
       "author": "66-zhimeng",
       "homepage": "https://github.com/66-zhimeng/dsh-dispatch",
       "repository": {
-        "url": "https://github.com/66-zhimeng/dsh-dispatch"
+        "url": "https://github.com/66-zhimeng/dsh-tool-dispatch"
       },
       "metadata": {
         "category": "dev-tools",
@@ -81,12 +81,12 @@
       },
       "versions": [
         {
-          "version": "0.2.10",
-          "publishTimestamp": 1794447399,
+          "version": "0.2.11",
+          "publishTimestamp": 1794448667,
           "source": {
             "type": "git",
-            "url": "https://github.com/66-zhimeng/dsh-dispatch",
-            "commit": "ea49448ff1a6e2d9464402535a630e36a199ff5d"
+            "url": "https://github.com/66-zhimeng/dsh-tool-dispatch",
+            "commit": "9f8ff761210a8b655b749a8a9b6b3f5648efb0b1"
           },
           "engines": {}
         }
