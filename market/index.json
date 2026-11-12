@@ -59,7 +59,7 @@
         "zh": "run_tools 在一次模型往返里并发执行多个工具调用，可用 after 声明依赖；run_parallel 一次派发多个子 agent。"
       },
       "author": "66-zhimeng",
-      "homepage": "https://github.com/66-zhimeng/dsh-dispatch",
+      "homepage": "https://github.com/66-zhimeng/dsh-tool-dispatch#readme",
       "repository": {
         "url": "https://github.com/66-zhimeng/dsh-tool-dispatch"
       },
